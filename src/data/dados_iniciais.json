@@ -1,0 +1,215 @@
+{
+  "categorias": [
+    {
+      "titulo": "O melhor do ventura",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Thiago Ventura",
+        "url": "https://www.youtube.com/user/thiagosouzapires"
+      },
+      "videos": [
+        {
+          "titulo": "Especial Bruflix - POKAS ",
+          "url": "https://www.youtube.com/watch?v=JtUno3ETtSA"
+        },
+        {
+          "titulo": "Tigas e os 300",
+          "url": "https://www.youtube.com/watch?v=75fK0iwhxdE"
+        },
+        {
+          "titulo": "Odia que broxei",
+          "url": "https://www.youtube.com/watch?v=jaOEY8iRo6c"
+        },
+        {
+          "titulo": "Fudênu Muito",
+          "url": "https://www.youtube.com/watch?v=n_QiJhn-l5c"
+        }, 
+        {
+          "titulo": "Xandanga",
+          "url": "https://www.youtube.com/watch?v=4iKeuiPP3rI"
+        },
+        {
+          "titulo": "Jeba",
+          "url": "https://www.youtube.com/watch?v=vvNcpVGe3tY"
+        },
+        {
+          "titulo": "Inveja",
+          "url": "https://www.youtube.com/watch?v=Q2LDobhGHm4"
+        },
+        {
+          "titulo": "Aconteceu",
+          "url": "https://www.youtube.com/watch?v=qTWExjrZHwE"
+        }
+      ]
+    },
+    {
+      "titulo": "O melhor do Cambota",
+      "link": "https://www.youtube.com/channel/UC1UWNQJQiIprQvSH6DDWd8Q",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Fabiano Cambota",
+        "url": "https://www.youtube.com/channel/UC1UWNQJQiIprQvSH6DDWd8Q"
+      },
+      "videos": [
+        {
+          "titulo": "O melhor da comedia, e aqui!!!",
+          "url": "https://www.youtube.com/watch?v=laE9QrOP94Q"
+        },
+        {
+          "titulo": "Meu pai e o seu Olivio",
+          "url": "https://www.youtube.com/watch?v=S0X8iQeaI1M"
+        },
+        {
+          "titulo": "Meu pai e a camisinha",
+          "url": "https://www.youtube.com/watch?v=2Dn1essQINE"
+        },
+        {
+          "titulo": "Imaginação e revista",
+          "url": "https://www.youtube.com/watch?v=ZjXUYUKMAu8"
+        },
+        {
+          "titulo": "Amigo de infância",
+          "url": "https://www.youtube.com/watch?v=tMET1BzqqVY"
+        },
+        {
+          "titulo": "Eu sou Evangelico",
+          "url": "https://www.youtube.com/watch?v=bdjL3EUGCNE"
+        },
+        {
+          "titulo": "Las Vegas",
+          "url": "https://www.youtube.com/watch?v=m0qTMQXPa7U"
+        },
+        {
+          "titulo": "Alemanha",
+          "url": "https://www.youtube.com/watch?v=re_XjP5UBJA"
+        }        
+      ]
+    },
+    {
+      "titulo": "O melhor do Couto",
+      "cor": "#410094",
+      "link_extra": {
+        "text": "Murilo Couto",
+        "url": "https://www.youtube.com/channel/UCDG56nDKCg302lY6Lr_GOWg"
+      },
+      "videos": [
+        {
+          "titulo": "Tomei bala na Rave",
+          "url": "https://www.youtube.com/watch?v=2ENbw6gN8AE&t=3s"
+        },
+        {
+          "titulo": "Um presidente muito louco",
+          "url": "https://www.youtube.com/watch?v=jkad4K4uCLE"
+        },
+        {
+          "titulo": "Multa",
+          "url": "https://www.youtube.com/watch?v=CLirL2eWJFk"
+        },
+        {
+          "titulo": "Odeio Médico",
+          "url": "https://www.youtube.com/watch?v=xEd0fmF3hFo"
+        },
+        {
+          "titulo": "Webbullying",
+          "url": "https://www.youtube.com/watch?v=rBn7lCqQetA"
+        },
+        {
+          "titulo": "Lula esta livre",
+          "url": "https://www.youtube.com/watch?v=H9ebP76B4l4"
+        },
+        {
+          "titulo": "Papa gripado e Caio Blat dotado",
+          "url": "https://www.youtube.com/watch?v=HVu_rB1QFiY"
+        },
+        {
+          "titulo": "Memes do Zap",
+          "url": "https://www.youtube.com/watch?v=Vu9nZOqJXoA&t=102s"
+        }
+      ]
+    },
+    {
+      "titulo": "O melhor do Wind",
+      "cor": "red",
+      "link_extra": {
+        "text": "Whinderson Nunes",
+        "url": "https://www.youtube.com/user/whinderssonnunes"
+      },
+      "videos": [
+        {
+          "titulo": "Proxima parada - T1",
+          "url": "https://www.youtube.com/watch?v=1As7KHDbgvw"
+        },
+        {
+          "titulo": "Proxima parada - T2",
+          "url": "https://www.youtube.com/watch?v=Z2fBL2uMnfo"
+        },
+        {
+          "titulo": "Proxima parada - T3",
+          "url": "https://www.youtube.com/watch?v=jah0ZP9eCl4"
+        },
+        {
+          "titulo": "Proxima parada - T4",
+          "url": "https://www.youtube.com/watch?v=ka9Zf-GJwoI"
+        },
+        {
+          "titulo": "Proxima parada - T5",
+          "url": "https://www.youtube.com/watch?v=8L2TfWbFing"
+        },
+        {
+          "titulo": "Proxima parada - T6",
+          "url": "https://www.youtube.com/watch?v=Qv8uDu5GxIQ"
+        },
+        {
+          "titulo": "Proxima parada - T7",
+          "url": "https://www.youtube.com/watch?v=pneHkbXMDpU"
+        },
+        {
+          "titulo": "Proxima parada - T8",
+          "url": "https://www.youtube.com/watch?v=0_KI6mIn6eI"
+        }
+      ]
+    },
+    {
+      "titulo": "Abrindo o saco de risada",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Top Parodias",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      },
+      "videos": [
+        {
+          "titulo": "Qual a senha do wifi",
+          "url": "https://www.youtube.com/watch?v=tWs1E2BfNZE"
+        },
+        {
+          "titulo": "Na sua cara",
+          "url": "https://www.youtube.com/watch?v=7l8VjJKOsiU"
+        },
+        {
+          "titulo": "Toda hora e live",
+          "url": "https://www.youtube.com/watch?v=3JbF3fBf42U"
+        },
+        {
+          "titulo": "Bem na sua cara",
+          "url": "https://www.youtube.com/watch?v=IiMPeVuCNVo"
+        },
+        {
+          "titulo": "K.O",
+          "url": "https://www.youtube.com/watch?v=NaF3YUSq3vY"
+        },
+        {
+          "titulo": "Gorda",
+          "url": "https://www.youtube.com/watch?v=Qwr29yZ9S-8"
+        },
+        {
+          "titulo": "Vai salvação",
+          "url": "https://www.youtube.com/watch?v=Txoh5iZDap0"
+        },
+        {
+          "titulo": "Nu C#",
+          "url": "https://www.youtube.com/watch?v=lXG9GOuuKLA"
+        }
+      ]
+    }
+  ]
+}
