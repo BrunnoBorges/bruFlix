@@ -31,6 +31,16 @@ const Button = styled.button`
     &:focus {
         opacity: .5;
     }
+    @media (max-width: 800px) {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: var(--primary);
+      border-radius: 0;
+      border: 0;
+      text-align: center;
+  }
 `;
 
 export default Button;
