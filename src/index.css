@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Press Start 2P',sans-serif;
 }
 
 :root {
@@ -14,12 +14,27 @@
   --backEnd: #00C86F;
 }
 
-html,
+html, body, #root, #blitz-app, #root,  #wrapper {
+  width: 100%;
+  height: 100%;
+}
 body {
   margin: 0;
   padding: 0;
 }
 
+p{
+  font-family: 'Press Start 2p';
+}
+
 a {
   color: inherit;
+}
+
+h1{
+  font-family: Lato;
+}
+
+#wrapper {
+  position: relative;
 }
