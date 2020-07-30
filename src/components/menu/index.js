@@ -1,15 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import bruflix from '../../assets/img/bruflix.png';
 import './menu.css';
-import Button from '../button/index';
+import Button from '../Button/index';
 
 function Menu() {
     return (
         <nav className="Menu">
-            <a href="/">
+            <Button style={{border: "none"}} as={Link} to="/">
                 <img className="Logo" src={bruflix} alt="BruFlix" />
-            </a>
-            <Button as="a" href="/" className="Button">
+            </Button>
+            <Button as={Link} to="/cadastro/video" className="Button">
                 Novo Video
             </Button>
         </nav>

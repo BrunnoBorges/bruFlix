@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import teclado from '../../assets/img/teclado.png'
 
 const BackGround = styled.div`
-  background-color: blue;
+  background-color: #f4f4f4;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -19,10 +19,10 @@ const GameOverText = styled.div`
   width: 100%;
 `
 const GameOverBackground = styled(BackGround)`
-  background-color: red;
+  background-color:#f44444;
 `
 const StartBackground = styled(BackGround)`
-  background-color: green;
+  background-color: #09a0f2;
 `
 const TopGrass = styled.div`
   position: absolute;

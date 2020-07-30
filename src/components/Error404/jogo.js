@@ -1,23 +1,19 @@
 
 import React, { Component } from 'react';
-import { render } from 'react-dom';
 import Brackground from './background'
 import Player from './player'
 import Obstacle from './obstacle'
 import BgMusic from './bgMusic'
 import Hud from './hud'
 
-const SPACE_KEY_CODE = 32
 const FALL_STEP = 20
 const JUMP_STEP = FALL_STEP * 5
 const DROP_STEP = FALL_STEP * 6
-const INITIAL_TOP = 100
 const INITIAL_LEFT = 10
 const INITIAL_OBSTACLE_STEP = 30
 const PLAYER_HEIGHT = 100
 const PLAYER_WIDTH = 100
 const OBSTACLE_MIN_DISTANCE = 300
-const OBSTACLE_MAX_DISTANCE = 900
 const NEW_OBSTACLES_TIME = 1500
 const OBSTACLE_WIDTH = 100
 const INTERVAL_TIME = 150
@@ -48,7 +44,6 @@ class Jogo404 extends Component {
     this.setState({ mute })
   }
   _createObstacle(lastLeft, index) {
-    const leftDiff = Math.floor(Math.random() * OBSTACLE_MAX_DISTANCE) + OBSTACLE_MIN_DISTANCE
     return {
       onTop: Math.random() >= 0.5,
       left: lastLeft + OBSTACLE_MIN_DISTANCE,
@@ -261,4 +256,3 @@ class Jogo404 extends Component {
 
 export default Jogo404;
 
-// render(<App />, document.getElementById('root'));
