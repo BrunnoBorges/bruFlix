@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import Home from './Pages/Home'
-import CadastroVideo from './Pages/Cadastro/Videos';
+import Home from './pages/Home'
+import CadastroVideo from './pages/Cadastro/Videos';
 import jogo404 from './components/Error404/jogo';
-import CadastroCategoria from './Pages/Cadastro/Categoria';
+import CadastroCategoria from './pages/Cadastro/Categoria';
 import './index.css';
 
 
