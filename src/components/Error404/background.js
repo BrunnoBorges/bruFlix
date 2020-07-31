@@ -65,7 +65,9 @@ export class Background extends Component {
             <p>Para jogar novamente tecle (Enter)</p>
             <p>OU</p>
             <p>digite a URL correta para acessar sua página...</p>
-            <p><span style={{fontSize: 100}}>&#128526;</span></p>
+            <p>
+              <span role="img" aria-label="Snowman" style={{fontSize: 100}}>&#9731;</span>
+            </p>
           </GameOverText>
         </GameOverBackground>
       )
