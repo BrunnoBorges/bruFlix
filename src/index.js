@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Home from './Pages/Home'
-import CadastroVideo from './Pages/Cadastro/Videos/index';
+import CadastroVideo from './Pages/Cadastro/Videos';
 import jogo404 from './components/Error404/jogo';
 import CadastroCategoria from './Pages/Cadastro/Categoria';
 import './index.css';
