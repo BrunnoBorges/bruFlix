@@ -29,12 +29,13 @@ function CadastroCategoria() {
 
   useEffect(() => {
     const URL_TOP = 'http://localhost:8080/categorias';
+    // const URL_TOP = 'https://bru-flix.herokuapp.com/categorias';
     setTimeout(() => {
       fetch(URL_TOP).then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
         setCategorias([...resposta]);
       })
-    }, 5 * 1000)
+    }, 4 * 1000)
   }, [
     
   ])
@@ -91,23 +92,23 @@ function CadastroCategoria() {
 
          {categorias.length === 0 && (
             <div>
-              <div id="loader-wrapper" class="loading">
-                <div class="loader">
-                  <div class="line"></div>
-                  <div class="line"></div>
-                  <div class="line"></div>
-                  <div class="line"></div>
-                  <div class="line"></div>
-                  <div class="line"></div>
-                  <div class="subline"></div>
-                  <div class="subline"></div>
-                  <div class="subline"></div>
-                  <div class="subline"></div>
-                  <div class="subline"></div>
-                  <div class="loader-circle-1"><div class="loader-circle-2"></div>
+              <div id="loader-wrapper" className="loading">
+                <div className="loader">
+                  <div className="line"></div>
+                  <div className="line"></div>
+                  <div className="line"></div>
+                  <div className="line"></div>
+                  <div className="line"></div>
+                  <div className="line"></div>
+                  <div className="subline"></div>
+                  <div className="subline"></div>
+                  <div className="subline"></div>
+                  <div className="subline"></div>
+                  <div className="subline"></div>
+                  <div className="loader-circle-1"><div className="loader-circle-2"></div>
                     </div>
-                  <div class="needle"></div>
-                  <div class="loading">Loading</div>
+                  <div className="needle"></div>
+                  <div className="loading">Loading</div>
                 </div>
               </div>
             </div>
