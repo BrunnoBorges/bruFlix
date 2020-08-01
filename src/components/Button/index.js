@@ -3,6 +3,7 @@ import styled from '../../../node_modules/styled-components';
 const Button = styled.button`
     color: var(--white);
     border: 1px solid var(--white);
+    background: transparent;
     box-sizing: border-box;
     cursor: pointer;
     padding: 16px 24px;

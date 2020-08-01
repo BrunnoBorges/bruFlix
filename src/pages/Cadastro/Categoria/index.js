@@ -1,6 +1,8 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
+import './categoria.css';
 
 
 function CadastroCategoria() {
@@ -25,6 +27,18 @@ function CadastroCategoria() {
     infosDoEnveto.target.value);
   }
 
+  useEffect(() => {
+    const URL_TOP = 'http://localhost:8080/categorias';
+    setTimeout(() => {
+      fetch(URL_TOP).then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setCategorias([...resposta]);
+      })
+    }, 5 * 1000)
+  }, [
+    
+  ])
+
   
     return(
       <PageDefault>
@@ -47,7 +61,7 @@ function CadastroCategoria() {
             />
 
             <FormField 
-            type=""
+            type="textarea"
             label="descricao"
             name="descricao"
             value={formValues.descricao}
@@ -61,43 +75,44 @@ function CadastroCategoria() {
             value={formValues.cor}
             onChange={handleChange}
             />
-
-            {/* <div>      
-              <label>
-                Descrição
-                <textarea
-                  type="text"
-                  value={formValues.descricao}
-                  name="descricao"
-                  onChange={handleChange}
-                />
-              </label>
-            </div> */}
-
-            {/* <div>
-              <label>
-                Cor
-                <input
-                  type="color"
-                  value={formValues.cor}
-                  name="cor"
-                  onChange={handleChange}
-                />
-              </label>
-            </div> */}
             <ul>
-              {categorias.map((categoria, indice) => {
+              {categorias.map((categoria) => {
                 return(
-                  <li key={`${categoria}${indice}`}>
+                  <li key={`${categoria.nome}`}>
                     {categoria.nome}
                   </li>
                 )
               })}
             </ul>
-            <button>
+            <Button>
               Cadastrar
-            </button>
+            </Button>
           </form>
+
+         {categorias.length === 0 && (
+            <div>
+              <div id="loader-wrapper" class="loading">
+                <div class="loader">
+                  <div class="line"></div>
+                  <div class="line"></div>
+                  <div class="line"></div>
+                  <div class="line"></div>
+                  <div class="line"></div>
+                  <div class="line"></div>
+                  <div class="subline"></div>
+                  <div class="subline"></div>
+                  <div class="subline"></div>
+                  <div class="subline"></div>
+                  <div class="subline"></div>
+                  <div class="loader-circle-1"><div class="loader-circle-2"></div>
+                    </div>
+                  <div class="needle"></div>
+                  <div class="loading">Loading</div>
+                </div>
+              </div>
+            </div>
+         )} 
+
       </PageDefault>
     )
 }

@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Porta dos Fundos",
+            "descricao": "O melhor do Porta",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 2,
+            "nome": "Afonso Padilha",
+            "descricao": "O melhor do Padilha",
+            "cor": "#cbd1ff"
+        }
+    ]
+}
