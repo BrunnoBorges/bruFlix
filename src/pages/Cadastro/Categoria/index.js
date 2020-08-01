@@ -28,12 +28,16 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const URL_TOP = 'http://localhost:8080/categorias';
-    // const URL_TOP = 'https://bru-flix.herokuapp.com/categorias';
+    const URL_TOP = window.location.hostname.includes('localhost') 
+    ? 'http://localhost:8080/categorias' 
+    : 'https://bru-flix.herokuapp.com/categorias';
     setTimeout(() => {
-      fetch(URL_TOP).then(async (respostaDoServidor) => {
+      fetch(URL_TOP)
+        .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
-        setCategorias([...resposta]);
+        setCategorias([
+          ...resposta,
+        ]);
       })
     }, 4 * 1000)
   }, [
