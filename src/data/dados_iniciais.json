@@ -4,12 +4,12 @@
       "titulo": "O melhor do Ventura",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Thiago Ventura",
+        "descricao": "Thiago Ventura",
         "url": "https://www.youtube.com/user/thiagosouzapires"
       },
       "videos": [
         {
-          "titulo": "Especial Bruflix - POKAS ",
+          "titulo": "Especial ComedyFlix",
           "url": "https://www.youtube.com/watch?v=JtUno3ETtSA"
         },
         {
@@ -47,7 +47,7 @@
       "link": "https://www.youtube.com/channel/UC1UWNQJQiIprQvSH6DDWd8Q",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Fabiano Cambota",
+        "descricao": "Fabiano Cambota",
         "url": "https://www.youtube.com/channel/UC1UWNQJQiIprQvSH6DDWd8Q"
       },
       "videos": [
@@ -89,7 +89,7 @@
       "titulo": "O melhor do Couto",
       "cor": "#410094",
       "link_extra": {
-        "text": "Murilo Couto",
+        "descricao": "Murilo Couto",
         "url": "https://www.youtube.com/channel/UCDG56nDKCg302lY6Lr_GOWg"
       },
       "videos": [
@@ -131,7 +131,7 @@
       "titulo": "O melhor do Wind",
       "cor": "red",
       "link_extra": {
-        "text": "Whinderson Nunes",
+        "descricao": "Whinderson Nunes",
         "url": "https://www.youtube.com/user/whinderssonnunes"
       },
       "videos": [
@@ -173,7 +173,7 @@
       "titulo": "Abrindo o saco de risada",
       "cor": "#6b5be2",
       "link_extra": {
-        "text": "Top Parodias",
+        "descricao": "Top Parodias",
         "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
       },
       "videos": [

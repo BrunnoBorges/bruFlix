@@ -2,30 +2,21 @@ import React, {useState, useEffect} from 'react';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
-import './categoria.css';
+import useForm from '../../../hooks/useForm';
+import Loading from '../../../components/Loading';
 
 
 function CadastroCategoria() {
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: ''
   }
+
+  const {handleChange, formValues, clearForm} = useForm(valoresIniciais)
+
   const [categorias, setCategorias] = useState([]);
-  const [formValues, setFormValues] = useState(valoresIniciais);
-
-
-  function setValues(chave, valor) {
-    setFormValues({
-      ...formValues,
-      [chave]: valor
-    })
-  }
-
-  function handleChange(infosDoEnveto) {
-    setValues(infosDoEnveto.target.getAttribute('name'), 
-    infosDoEnveto.target.value);
-  }
+  
 
   useEffect(() => {
     const URL_TOP = window.location.hostname.includes('localhost') 
@@ -47,7 +38,7 @@ function CadastroCategoria() {
   
     return(
       <PageDefault>
-          <h1>Cadastro de Categoria: {formValues.nome}</h1>
+          <h1>Cadastro de Categoria: {formValues.titulo}</h1>
           <form onSubmit={function handleSubmit(infosDoEnveto) {
             infosDoEnveto.preventDefault();
             setCategorias([
@@ -55,13 +46,13 @@ function CadastroCategoria() {
               formValues
             ]);
 
-            setFormValues(valoresIniciais);
+            clearForm();
           }}>
             <FormField 
             type="text"
-            label="nome"
-            name="nome"
-            value={formValues.nome}
+            label="Titulo"
+            name="titulo"
+            value={formValues.titulo}
             onChange={handleChange}
             />
 
@@ -80,41 +71,28 @@ function CadastroCategoria() {
             value={formValues.cor}
             onChange={handleChange}
             />
-            <ul>
-              {categorias.map((categoria) => {
-                return(
-                  <li key={`${categoria.nome}`}>
-                    {categoria.nome}
-                  </li>
-                )
-              })}
-            </ul>
-            <Button>
-              Cadastrar
-            </Button>
+              <h1>Categorias Cadastradas:</h1>
+            <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+              <ul>
+                {categorias.map((categoria) => {
+                  return(
+                    <li key={`${categoria.titulo}`}>
+                      {categoria.titulo}
+                    </li>
+                  )
+                })}
+              </ul>
+             <div>
+                <Button>
+                  Cadastrar nova categoria
+                </Button>
+              </div> 
+            </div>
           </form>
 
          {categorias.length === 0 && (
             <div>
-              <div id="loader-wrapper" className="loading">
-                <div className="loader">
-                  <div className="line"></div>
-                  <div className="line"></div>
-                  <div className="line"></div>
-                  <div className="line"></div>
-                  <div className="line"></div>
-                  <div className="line"></div>
-                  <div className="subline"></div>
-                  <div className="subline"></div>
-                  <div className="subline"></div>
-                  <div className="subline"></div>
-                  <div className="subline"></div>
-                  <div className="loader-circle-1"><div className="loader-circle-2"></div>
-                    </div>
-                  <div className="needle"></div>
-                  <div className="loading">Loading</div>
-                </div>
-              </div>
+              <Loading />
             </div>
          )} 
 

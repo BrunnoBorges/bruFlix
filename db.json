@@ -1,16 +1,242 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "nome": "Porta dos Fundos",
-            "descricao": "O melhor do Porta",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 2,
-            "nome": "Afonso Padilha",
-            "descricao": "O melhor do Padilha",
-            "cor": "#cbd1ff"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "O melhor do Ventura",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Thiago Ventura",
+        "url": "https://www.youtube.com/watch?v=dIXpONYjWxg"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "O melhor do Cambota",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Fabiano Cambota",
+        "url": "https://www.youtube.com/channel/UC1UWNQJQiIprQvSH6DDWd8Q"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "O melhor do Couto",
+      "cor": "#410094",
+      "link_extra": {
+        "text": "Murilo Couto",
+        "url": "https://www.youtube.com/channel/UCDG56nDKCg302lY6Lr_GOWg"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "O melhor do Wind",
+      "cor": "red",
+      "link_extra": {
+        "text": "Whinderson Nunes",
+        "url": "https://www.youtube.com/user/whinderssonnunes"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Abrindo o saco de risada",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Top Parodias",
+        "url": "https://www.youtube.com/watch?v=3JbF3fBf42U"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "O melhor do ComedyFlix",
+      "url": "https://www.youtube.com/watch?v=BgXrMdt2TbM"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Tigas e os 300",
+      "url": "https://www.youtube.com/watch?v=75fK0iwhxdE"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "O dia que broxei",
+      "url": "https://www.youtube.com/watch?v=jaOEY8iRo6c"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Fudênu Muito",
+      "url": "https://www.youtube.com/watch?v=n_QiJhn-l5c"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Xandanga",
+      "url": "https://www.youtube.com/watch?v=4iKeuiPP3rI"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Jeba",
+      "url": "https://www.youtube.com/watch?v=vvNcpVGe3tY"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Inveja",
+      "url": "https://www.youtube.com/watch?v=Q2LDobhGHm4"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "O melhor da comedia, e aqui!!!",
+      "url": "https://www.youtube.com/watch?v=laE9QrOP94Q"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Eu sou Evangelico",
+      "url": "https://www.youtube.com/watch?v=bdjL3EUGCNE"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Meu pai e o seu Olivio",
+      "url": "https://www.youtube.com/watch?v=S0X8iQeaI1M"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Meu pai e a camisinha",
+      "url": "https://www.youtube.com/watch?v=2Dn1essQINE"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Imaginação e revista",
+      "url": "https://www.youtube.com/watch?v=ZjXUYUKMAu8"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "Tomei bala na Rave",
+      "url": "https://www.youtube.com/watch?v=2ENbw6gN8AE&t=3s"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Um presidente muito louco",
+      "url": "https://www.youtube.com/watch?v=jkad4K4uCLE"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Multa",
+      "url": "https://www.youtube.com/watch?v=CLirL2eWJFk"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Odeio Médico",
+      "url": "https://www.youtube.com/watch?v=xEd0fmF3hFo"
+    },
+    {
+      "id": 17,
+      "categoriaId": 4,
+      "titulo": "Proxima parada - T1",
+      "url": "https://www.youtube.com/watch?v=1As7KHDbgvw"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Proxima parada - T2",
+      "url": "https://www.youtube.com/watch?v=Z2fBL2uMnfo"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Proxima parada - T3",
+      "url": "https://www.youtube.com/watch?v=jah0ZP9eCl4"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Proxima parada - T4",
+      "url": "https://www.youtube.com/watch?v=ka9Zf-GJwoI"
+    },
+    {
+      "id": 21,
+      "categoriaId": 5,
+      "titulo": "Qual a senha do wifi",
+      "url": "https://www.youtube.com/watch?v=tWs1E2BfNZE"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "Na sua cara",
+      "url": "https://www.youtube.com/watch?v=IiMPeVuCNVo"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "K.O",
+      "url": "https://www.youtube.com/watch?v=NaF3YUSq3vY"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Nu C#",
+      "url": "https://www.youtube.com/watch?v=lXG9GOuuKLA"
+    },
+    {
+      "titulo": "Webbullying",
+      "url": "https://www.youtube.com/watch?v=rBn7lCqQetA",
+      "categoriaId": 3,
+      "id": 25
+    },
+    {
+      "titulo": "Amigo de infância",
+      "url": "https://www.youtube.com/watch?v=tMET1BzqqVY",
+      "categoriaId": 2,
+      "id": 26
+    },
+    {
+      "titulo": "Lula esta livre",
+      "url": "\"https://www.youtube.com/watch?v=H9ebP76B4l4",
+      "categoriaId": "",
+      "id": 27
+    },
+    {
+      "titulo": "Memes do Zap",
+      "url": "https://www.youtube.com/watch?v=Vu9nZOqJXoA&t=102s",
+      "id": 28
+    },
+    {
+      "titulo": "Proxima parada - T5",
+      "url": "https://www.youtube.com/watch?v=8L2TfWbFing",
+      "categoriaId": 4,
+      "id": 29
+    },
+    {
+      "titulo": "Proxima parada - T6",
+      "url": "https://www.youtube.com/watch?v=Qv8uDu5GxIQ",
+      "categoriaId": 4,
+      "id": 30
+    },
+    {
+      "titulo": "Vai salvação",
+      "url": "https://www.youtube.com/watch?v=Txoh5iZDap0",
+      "categoriaId": 5,
+      "id": 31
+    },
+    {
+      "titulo": "Gorda",
+      "url": "https://www.youtube.com/watch?v=Qwr29yZ9S-8",
+      "categoriaId": 5,
+      "id": 32
+    }
+  ]
 }
